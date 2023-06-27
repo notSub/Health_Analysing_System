@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="400dp"
+        android:layout_height="1490dp"
+    android:background="@drawable/selectbg"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:fillViewport="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".thyroidfunctiontestinput">
+
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal17"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="72dp"
+                android:ems="10"
+                android:hint="   0.3-5.0 U/mL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal16"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal16"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal16" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text=" THYROID-STIMULATING\n           HORMONE \n               (TSH)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintHorizontal_bias="0.539"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="124dp"
+                android:text="TRIIODOTHYRONINE \n             (T3)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal7"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="132dp"
+                android:ems="10"
+                android:hint="   75-200 ng/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.957"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal16"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="56dp"
+                android:ems="10"
+                android:hint="  4.5-11.5 ug/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal7"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal7"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal7" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="ENTER YOUR DETAILS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:text="THYROXINE(T4)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <Button
+                android:id="@+id/button1211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="Next"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal17"
+                app:layout_constraintHorizontal_bias="0.923"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal17"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal17" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

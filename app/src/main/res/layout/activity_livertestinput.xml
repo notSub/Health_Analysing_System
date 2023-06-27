@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="1490dp"
+    tools:layout_editor_absoluteX="1dp"
+    android:background="@drawable/selectbg"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="927dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal20"
+            android:layout_width="187dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:hint="   3.5gm/I - 5 gm/I"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal19"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal19"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal19" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal19"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="0 mm/hr-30 mm/hr"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal18"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal18"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal18" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal18"
+            android:layout_width="166dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="     10-40 iu/I"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal17"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal17"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal17" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal17"
+            android:layout_width="166dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="     10-40 iu/I"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal16"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal16"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal16" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="ALBUMIN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView53"
+            app:layout_constraintStart_toStartOf="@+id/textView53"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="BILIRUBIN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView52"
+            app:layout_constraintStart_toStartOf="@+id/textView52"
+            app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="AST/SGOT"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="ALT/SGPT"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView51"
+            app:layout_constraintStart_toStartOf="@+id/textView51"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="80dp"
+            android:text="Alkaline phosphatase"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal7"
+            android:layout_width="166dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:hint="  30 U/L-115 U/L"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal16"
+            android:layout_width="166dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint=" 2 gm/I-3.5 gm/I"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal7"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal7" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ENTER YOUR DETAILS"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="GLOBULIN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/button1211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Next"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal20"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal20"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal20" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

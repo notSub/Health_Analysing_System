@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Health Analysing System</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+</resources>

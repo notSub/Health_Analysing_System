@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="750dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:background="@drawable/inputbg"
+    android:fillViewport="true">
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="927dp"
+      tools:context=".MainActivity"
+      tools:layout_editor_absoluteY="1dp">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="399dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="#03A9F4"
+        android:text="THYROID TEST"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:strokeColor="@color/teal_200" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="399dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="#03A9F4"
+        android:text="HbA1c BLOOD TEST \n(DIABETES OR NON-DIABETES)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="399dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#03A9F4"
+        android:text="LIVER FUNCTIOM TEST"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="399dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="#03A9F4"
+        android:text="CHOLESTROL TEST"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:strokeColor="@color/teal_200" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="399dp"
+        android:layout_height="85dp"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4"
+        android:text="BLOOD TEST"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/teal_200" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

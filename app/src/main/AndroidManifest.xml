@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthanalysingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthAnalysingSystem">
+        <activity
+            android:name=".cholestroltestfood"
+            android:exported="false" />
+        <activity
+            android:name=".cholestroltestsym"
+            android:exported="false" />
+        <activity
+            android:name=".hba1cbloodtestfood"
+            android:exported="false" />
+        <activity
+            android:name=".hba1cbloodtestsym"
+            android:exported="false" />
+        <activity
+            android:name=".hba1cbloodtestoutput"
+            android:exported="false" />
+        <activity
+            android:name=".hba1cbloodtestinput"
+            android:exported="false" />
+        <activity
+            android:name=".thyroidfunctiontestfood"
+            android:exported="false" />
+        <activity
+            android:name=".thyroidfunctiontestsym"
+            android:exported="false" />
+        <activity
+            android:name=".livertestfood"
+            android:exported="false" />
+        <activity
+            android:name=".livertestsym"
+            android:exported="false" />
+        <activity
+            android:name=".thyroidfunctiontestoutput"
+            android:exported="false" />
+        <activity
+            android:name=".thyroidfunctiontestinput"
+            android:exported="false" />
+        <activity
+            android:name=".cholestroltestoutput"
+            android:exported="false" />
+        <activity
+            android:name=".cholestroltestinput"
+            android:exported="false" />
+        <activity
+            android:name=".cholesteroltest"
+            android:exported="false" />
+        <activity
+            android:name=".genterselection"
+            android:exported="false" />
+        <activity
+            android:name=".livertestoutput"
+            android:exported="false" />
+        <activity
+            android:name=".livertestinput"
+            android:exported="false" />
+        <activity
+            android:name=".kidneytestinput"
+            android:exported="false" />
+        <activity
+            android:name=".select"
+            android:exported="false" />
+        <activity
+            android:name=".food"
+            android:exported="false" />
+        <activity
+            android:name=".Recommanded"
+            android:exported="false" />
+        <activity
+            android:name=".outpupt"
+            android:exported="false" />
+        <activity
+            android:name=".input"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

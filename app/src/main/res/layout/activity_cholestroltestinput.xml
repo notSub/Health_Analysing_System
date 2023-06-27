@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/selectbg"
+        android:layout_width="400dp"
+        android:layout_height="1490dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:fillViewport="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".cholestroltestinput">
+
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal19"
+                android:layout_width="172dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="46dp"
+                android:ems="10"
+                android:hint="    2 to 30 mg/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal18"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal18"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal18" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal18"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="48dp"
+                android:ems="10"
+                android:hint=" 70 to 130 mg/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal17"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal17"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal17" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal17"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint=" 40 to 60 mg/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal16"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal16"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal16" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:text="VLDL"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView52"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="@+id/textView52"
+                app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:text="HDL Cholesterol"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:text="LDL Cholesterol"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView51"
+                app:layout_constraintStart_toStartOf="@+id/textView51"
+                app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="124dp"
+                android:text="Total Cholesterol"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal7"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="124dp"
+                android:ems="10"
+                android:hint=" less 200 mg/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.944"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal16"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="46dp"
+                android:ems="10"
+                android:hint="10 to 150 mg/dL"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal7"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal7"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal7" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="ENTER YOUR DETAILS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:text="Triglycerides"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <Button
+                android:id="@+id/button1211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="Next"
+                app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal19"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal19"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal19" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
